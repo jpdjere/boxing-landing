@@ -160,3 +160,24 @@ button {
         font-size: 3.6rem;
     }
 }
+
+.subtitle {
+    color: black !important;
+    font-size: 30px !important;
+    background: white;
+    padding: 12px;
+    line-height: 45px;
+    margin: 5px;
+    display: inline;
+    -webkit-box-decoration-break: clone;
+}
+
+.column {
+    margin-bottom: 0px;
+  }
+
+@media (max-width: 767px) {
+    .column {
+      margin-bottom: 40px;
+    }
+  }
